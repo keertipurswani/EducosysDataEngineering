@@ -1,0 +1,27 @@
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- Generated databases (rebuilt by the demo scripts) ----
+*.duckdb
+*.duckdb.wal
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.db
+
+# ---- Generated data files in the repo root ----
+# Leading "/" = only the top folder; data/ (small sample inputs) is kept
+/*.csv
+/*.parquet
+/*.json
+/*.arrow
+
+# ---- OS / editor ----
+.DS_Store
+.vscode/
+.idea/
