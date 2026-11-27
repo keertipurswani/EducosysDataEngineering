@@ -1,0 +1,6 @@
+# PySpark course - exact versions, so everyone gets the same results
+pyspark[sql,connect]==4.2.0     # Spark + its Python library (Spark itself is bundled inside), plus a few optional add-ons
+delta-spark==4.4.1              # Delta Lake for Spark (used later in the course)
+pandas>=2.2,<3                  # PySpark 4.2 does not fully support pandas 3 yet
+pyarrow>=18                    # moves data quickly between Spark and pandas
+pytest>=8                       # for the testing lesson
